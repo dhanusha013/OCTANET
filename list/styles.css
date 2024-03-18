@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('Crush Your Own To-Do List.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+}
+
+#todo-container {
+    margin-top: 20px;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background: rgba(15, 14, 14, 0.8);
+    border-radius: 5px;
+}
+
+#input-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+
+
+#taskInput {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
